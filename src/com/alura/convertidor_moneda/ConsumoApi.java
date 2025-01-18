@@ -9,7 +9,7 @@ import java.net.http.HttpResponse;
 
 
 public class ConsumoApi {
-    private static String API_KEY = "824055cf0b43f096069153a8";
+    private static String API_KEY = "";
     private static String URL_BASE = "https://v6.exchangerate-api.com/v6/"+API_KEY+"/pair/";
 
     public Conversor obtenerDatos(String baseCode, String targetCode) {

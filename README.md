@@ -21,3 +21,13 @@ También incluye la opción de **salir** del programa.
 - **Conexión a Internet** (para hacer uso de la API de Exchange Rate)
 - **Una cuenta en [ExchangeRate API](https://www.exchangerate-api.com/)** para obtener la clave API (gratis para solicitudes básicas).
 
+## Configuración de la API Key
+
+Para que el código funcione correctamente, es necesario generar una **API Key** desde la página de [ExchangeRate API](https://www.exchangerate-api.com/).
+
+Una vez tengas tu clave API, sigue estos pasos:
+
+1. Abre el archivo `ConsumoApi.java` en el proyecto.
+2. Busca la constante `API_KEY`.
+3. Pega tu clave API en esta constante, reemplazando el valor que esté allí.
+
